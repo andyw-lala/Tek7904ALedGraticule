@@ -10,6 +10,7 @@ This design replaces the existing incandescent graticule intensity control with 
 TODO:
 * eagle files
 * BOM
-* oshpark link
+* circuit description
+* [oshpark link](https://oshpark.com/shared_projects/jouvs37V)
 * assembly and installation instructions with photos
 
