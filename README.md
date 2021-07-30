@@ -6,7 +6,7 @@ Inspired by the white LED upgrade to a [Tek 7854 by Zenwizard Studios](https://y
 
 The 7904A is not so so straightforward that you can simply replace the lamps with LEDs and a series resistor.
 
-This design replaces the existing incandescent graticule intensity control with a variable current source, all the existing controls are honoured, including intensity, gate and manual modes.
+This design replaces the existing incandescent graticule lamp driver circuit with a variable current source, all the existing controls are honoured, including intensity, gate and manual modes.
 
 ## [Schematic](V3.pdf) (pdf)
 
