@@ -1,4 +1,5 @@
 # BOM
+![Schematic](V3.pdf)
 Designator | Value | Description
 ---------- | ----- | -----------
 LED1 | C535A-WJN-CT0W0231 | 5mm Cool White LED, 110 degrees
