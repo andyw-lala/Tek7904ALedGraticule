@@ -1,6 +1,6 @@
 # BOM
 Designator | Value | Description
-----------------------
+---------- | ----- | -----------
 LED1 | C535A-WJN-CT0W0231 | 5mm Cool White LED, 110 degrees
 LED2 | C535A-WJN-CT0W0231 | 5mm Cool White LED, 110 degrees
 LED3 | C535A-WJN-CT0W0231 | 5mm Cool White LED, 110 degrees
