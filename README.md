@@ -8,7 +8,7 @@ The 7904A is not so so straightforward that you can simply replace the lamps wit
 
 This design replaces the existing incandescent graticule intensity control with a variable current source, all the existing controls are honoured, including intensity, gate and manual modes.
 
-## [Schematic](V3.pdf)
+## [Schematic](V3.pdf) (pdf)
 
 ## [BOM](BOM.md)
 
