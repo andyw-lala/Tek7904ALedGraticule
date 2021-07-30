@@ -1,3 +1,4 @@
+![After Photo](After.jpg)
 # Tek7904ALedGraticule
 A project to retro-fit LED graticule lighting to Tektronix 7904A scopes.
 
