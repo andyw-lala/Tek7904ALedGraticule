@@ -16,7 +16,7 @@ This design replaces the existing incandescent graticule intensity control with 
 * [Schematic](V3.sch)
 * [Board](V3.brd)
 
-## ORder Boards
+## Order Boards
 You can order multiples of three boards directly from [OSHpark](https://oshpark.com/shared_projects/jouvs37V)
 
 # Licence
