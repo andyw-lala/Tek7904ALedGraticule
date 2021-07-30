@@ -8,13 +8,20 @@ The 7904A is not so so straightforward that you can simply replace the lamps wit
 
 This design replaces the existing incandescent graticule intensity control with a variable current source, all the existing controls are honoured, including intensity, gate and manual modes.
 
+## [Schematic](V3.pdf)
+
+## [BOM](BOM.md)
+
+## Eagle Files
+### [Schematic](V3.sch)
+### [Board](V3.brd)
+
+## ORder Boards
+You can order multiples of three boards directly from [OSHpark](https://oshpark.com/shared_projects/jouvs37V)
+
 # Licence
 All work here is covered by the MIT Licence, which is simple and permissive.
 
 TODO:
-* eagle files
-* BOM
 * circuit description
-* [oshpark link](https://oshpark.com/shared_projects/jouvs37V)
 * assembly and installation instructions with photos
-
