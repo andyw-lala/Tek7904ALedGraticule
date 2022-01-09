@@ -50,7 +50,6 @@ First remove the graticule lamp assembly from the scope, this is accomplished as
 2. Remove R301, the 300 Ohm, 1W resistor on the A1 board. (reference photos) I did not bother desoldering it, and simply removed it by cutting the leads.
 3. Mount the additional PCB. I simply bolted it to the horizontal rail running along the right hand side of the chassis, using one of the existing holes near the rear of the scope.
 4. Remove the ribbon cable that is plugged into P17 on the Low Voltage Regulator board (A22), and attach it to the additional PCB in the location marked "To A1 P1917", paying attention to the orientation of pin 1. This is P1 on the schematic. Connect the location marked "To A22 P17" on the additional PCB (P2 on schematic) via additional ribbon cable to the now unused P17 on A22. (reference photos)
-
 I was able to find a 5-way Tek cable that I pulled from some parts mule, and I used that to make the connection between A22 and the additional PCB. Obviously, other solutions are possible, such as cutting the existing ribbon cable and soldering it directly to the additional PCB.
 
 # Licence
