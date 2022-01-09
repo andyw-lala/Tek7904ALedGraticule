@@ -34,22 +34,22 @@ You can order multiples of three boards directly from [OSHpark](https://oshpark.
 There are four simple steps required in addition to making the circuit board (all obviously accomplished with the scope off, and fully discharged):
 1. Reworking the graticule light board (A30.)
 First remove the graticule lamp assembly from the scope, this is accomplished as follows:
-    1. Remove the plastic trim around the CRT, by gently pulling it away from the screen (reference photo)
-    2. Loosen the two screws holding the retaining clips for the tinted filter, and rotate the clips out of the way (reference photo)
+    1. [Remove the plastic trim around the CRT](images/PXL_20220108_233952439.jpg), by gently pulling it away from the screen.
+    2. [Loosen the two screws holding the retaining clips](images/PXL_20220108_234001968.jpg) for the tinted filter, and rotate the clips out of the way.
     3. Remove the tinted filter.
-    4. Remove the graticule light assembly by gently pushing the white plastic clips inwards until the assembly can be pulled forward. Be gentle, these clips can be brittle. (reference photos)
-    5. Remove the PCB from the clear plastic light guide. (reference photo)
-    6. Desolder the two wires that go to the PCB, taking note of which wire goes where in the PCB - in my case the green wire went to the trace marked "Ground", and the yellow wire went to the trace marked "+". Tape the wires to avoid them disappearing back inside the body of the scope and complicating the process.
-    7. Desolder lamps.
-    8. Pre-bend the LED leads (reference photo)
-    9. Solder LEDs in place - noting orientation (reference photo)
-    10. Cut PCB traces in three places, to convert from parallel to series wiring (reference photo)
-    11. Add jumper wire as shown to complete series wiring (reference photo)
+    4. [Remove the graticule light assembly](images/PXL_20220108_234047702.jpg) by gently pushing the white plastic clips inwards until [the assembly can be pulled forward](images/PXL_20220108_234137003.jpg). Be gentle, these clips can be brittle.
+    5. Desolder the two wires that go to the PCB, taking note of which wire goes where in the PCB - in my case the green wire went to the trace marked "Ground", and the yellow wire went to the trace marked "+". Tape the wires to avoid them disappearing back inside the body of the scope and complicating the process.
+    6. [Remove the PCB](images/PXL_20210615_022417282.jpg) from the clear plastic light guide.
+    7. [Desolder lamps](images/PXL_20210615_022752127.jpg).
+    8. [Pre-bend the LED leads](images/PXL_20210615_023820695.jpg).
+    9. [Solder LEDs in place](images/PXL_20210615_024128291.jpg) - noting orientation.
+    10. [Cut PCB traces](images/PXL_20210615_024433127.jpg) in three places, to convert from parallel to series wiring.
+    11. [Add jumper wire as shown](images/PXL_20210615_024639665.jpg) to complete series wiring.
     12. Re-solder A30 PCB to wires on scope, observing the correct polarity.
     12. Re-assemble by reversing steps 1 - 5.
-2. Remove R301, the 300 Ohm, 1W resistor on the A1 board. (reference photos) I did not bother desoldering it, and simply removed it by cutting the leads.
+2. Remove [R301](images/R301-Location-1.jpg), the [300 Ohm, 1W resistor](images/R301-Location-2.jpg) on the A1 board. I did not bother desoldering it, and simply removed it by cutting the leads.
 3. Mount the additional PCB. I simply bolted it to the horizontal rail running along the right hand side of the chassis, using one of the existing holes near the rear of the scope.
-4. Remove the ribbon cable that is plugged into P17 on the Low Voltage Regulator board (A22), and attach it to the additional PCB in the location marked "To A1 P1917", paying attention to the orientation of pin 1. This is P1 on the schematic. Connect the location marked "To A22 P17" on the additional PCB (P2 on schematic) via additional ribbon cable to the now unused P17 on A22. (reference photos)
+4. Remove the ribbon cable that is plugged into P17 on the Low Voltage Regulator board (A22), and [attach it to the additional PCB](images/PXL_20210720_014014225.jpg) in the location marked "To A1 P1917", paying attention to the orientation of pin 1. This is P1 on the schematic. Connect the location marked "To A22 P17" on the additional PCB (P2 on schematic) via additional ribbon cable to the now unused P17 on A22.
 I was able to find a 5-way Tek cable that I pulled from some parts mule, and I used that to make the connection between A22 and the additional PCB. Obviously, other solutions are possible, such as cutting the existing ribbon cable and soldering it directly to the additional PCB.
 
 # Licence
