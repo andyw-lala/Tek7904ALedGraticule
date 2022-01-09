@@ -11,9 +11,9 @@ This design replaces the existing incandescent graticule lamp driver circuit wit
 ## Theory of Operation
 The 7904A controls the graticule illumination by means of circuitry on the A1 PCB (front panel board, located upper right front of scope.) This control circuit is documented on schematic 7 of my version of the manual (R1900, R1902, Q1910, S1905, S1910, etc.) Ultimately these various mechanisms result in a single -15V to 0V output signal on pin 4 of P1917; where -15V is illumination off, and 0V is full brighness.
 
-This signal is then whisked off to the A22 PCB (LV Regulator board, located towards the rear.) There this control signal is used by Q144, Q148 and associated cocomponents (schematic 15 in my version of the manual) to control a 0v to 6V output that is fed to the lamps via the A1 PCB again, and a beefy pull-up resistor to +15V (R301.) The original lamps are wired in parallel, as shown on schematic 2.
+This signal is then whisked off to the A22 PCB (LV Regulator board, located towards the rear.) The control signal is used by Q144, Q148 and associated components (schematic 15 in my version of the manual) to control a 0v to 6V output that is fed to the lamps via the A1 PCB again and a beefy pull-up resistor to +15V (R301.) The original lamps are wired in parallel, as shown on schematic 2.
 
-The replacement re-uses all the control circuitry, so behaviour is identical, including all the modes and controls such as preset brightness, gated, and manual operation. However, it uses the -15V to 0V control voltage to control a 0 - 20mA current from the +15V rail through the replacement LEDs, which are wired in series. The circuit uses a simple emitter follower (T1) to convert the control voltage into a current sink, and a [Wilson current mirror] (https://en.wikipedia.org/wiki/Wilson_current_mirror) (T2,3,4) to convert that into a current source to ground for the LEDs. It seemed apt, since George Wilson was a Tek engineer when he developed the eponymous circuit. The absolute accuracy of the mirror is not too important; so unmatched, discrete, transistors are used.
+The replacement re-uses all the control circuitry, so behaviour is identical, including all the modes and controls such as preset brightness, gated, and manual operation. However, it uses the -15V to 0V control voltage to control a 0 - 20mA current from the +15V rail through the replacement LEDs, which are wired in series. The circuit uses a simple emitter follower (T1) to convert the control voltage into a current sink, and a [Wilson current mirror](https://en.wikipedia.org/wiki/Wilson_current_mirror) (T2,3,4) to convert that into a current source to ground for the LEDs. It seemed apt, since George Wilson was a Tek engineer when he developed the eponymous circuit. The absolute accuracy of the mirror is not too important; so unmatched, discrete, transistors are used.
 
 This is accomplished by inserting a small circuit with the additional electronics in the existing ribbon cable connection between the A1 and A22 boards. The control signal to, and the lamp power from, A22 are disconnected and no longer passed through. The pull-up resistor (R301 on A1) is removed.
 
@@ -33,9 +33,7 @@ You can order multiples of three boards directly from [OSHpark](https://oshpark.
 ## Installation
 There are four simple steps required in addition to making the circuit board (all obviously accomplished with the scope off, and fully discharged):
 1. Reworking the graticule light board (A30.)
-
 First remove the graticule lamp assembly from the scope, this is accomplished as follows:
-
     1. Remove the plastic trim around the CRT, by gently pulling it away from the screen (reference photo)
     2. Loosen the two screws holding the retaining clips for the tinted filter, and rotate the clips out of the way (reference photo)
     3. Remove the tinted filter.
@@ -62,5 +60,4 @@ All work here is covered by the MIT Licence, which is simple and permissive.
 This mod worked well for me, and is presented here in the hope it can be as useful to others. However, do not undertake this unless you have the skills to perform the work safely and without damaging anything. You perform all work at your own risk, and I have no responsibility for any damage or injury whatsoever.
 
 TODO:
-* circuit description
-* assembly and installation instructions with photos
+* add links to photos
