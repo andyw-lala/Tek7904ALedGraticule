@@ -8,7 +8,7 @@ The 7904A is not so so straightforward that you can simply replace the lamps wit
 
 This design replaces the existing incandescent graticule lamp driver circuit with a variable current source, all the existing controls are honoured, including intensity, gate and manual modes.
 
-This upgrade is also featured at the beginning of another Zenwizard Studios video [Tektronix 7904A Lab Check in and LED MOD](https://youtu.be/GQn0EqW-u74).
+This upgrade is also featured at the beginning of Zenwizard Studios video: [Tektronix 7904A Lab Check in and LED MOD](https://youtu.be/GQn0EqW-u74).
 
 ## Theory of Operation
 The 7904A controls the graticule illumination by means of circuitry on the A1 PCB (front panel board, located upper right front of scope.) This control circuit is documented on schematic 7 of my version of the manual (R1900, R1902, Q1910, S1905, S1910, etc.) Ultimately these various mechanisms result in a single -15V to 0V output signal on pin 4 of P1917; where -15V is illumination off, and 0V is full brighness.
