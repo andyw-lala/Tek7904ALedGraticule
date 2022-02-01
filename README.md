@@ -29,8 +29,13 @@ The graticule light board (A30) is modified to replace the lamps with wide angle
 * [Schematic](V3.sch)
 * [Board](V3.brd)
 
+## Gerber Files
+Here are generated gerbers, so you can use your PCB house of choice.
+Note that I have only checked these with a viewer, I ordered my boards direct from OSHPark using the eagle board file. Send feedback if you use these files and the work or don't work.
+* [Gerber zipfile](V3_gerbers.zip)
+
 ## Order Boards
-You can order multiples of three boards directly from [OSHpark](https://oshpark.com/shared_projects/jouvs37V)
+You can order multiples of three known good boards directly from [OSHpark](https://oshpark.com/shared_projects/jouvs37V)
 
 ## Installation
 There are four simple steps required in addition to making the circuit board (all obviously accomplished with the scope off, and fully discharged):
