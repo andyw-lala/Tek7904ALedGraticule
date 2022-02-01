@@ -31,7 +31,7 @@ The graticule light board (A30) is modified to replace the lamps with wide angle
 
 ## Gerber Files
 Here are generated gerbers, so you can use your PCB house of choice.
-Note that I have only checked these with a viewer, I ordered my boards direct from OSHPark using the eagle board file. Send feedback if you use these files and the work or don't work.
+Note that I have only checked these with a viewer, I ordered my boards direct from OSHPark using the eagle board file. Send feedback if you use these files and they work or don't work.
 * [Gerber zipfile](V3_gerbers.zip)
 
 ## Order Boards
